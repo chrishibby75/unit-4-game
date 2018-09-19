@@ -1,5 +1,5 @@
 //set up random number user is trying to match
-    $(document).ready(function () {
+$(document).ready(function () {
     var Random = Math.floor(Math.random() * 101) + 19;
     console.log(Random);
     $("#randomNumber").text(Random);
@@ -54,10 +54,52 @@
     }
 
     // sets up click for jewels
-    $("#redgem").on("click", function() {
+    $("#redgem").on("click", function () {
         total = total + generatedNumbers[0];
         console.log("randomNumber")
-    })
 
-    // sets win/lose condition
+
+        // sets win/lose condition
+        if (total == Random) {
+            winner();
+        } else if (total > Random) {
+            loser();
+        }
+    });
+
+    $("#bluegem").on("click", function () {
+        total = total + generatedNumbers[1];
+        console.log("randomNumber");
+
+        if (total == Random) {
+            winner();
+        } else if (total > Random) {
+            loser();
+        }
+
+    });
+
+    $("#yellowgem").on("click", function() {
+        total = total + generatedNumbers[2];
+        console.log("randomNumber");
+
+        if (total == Random) {
+            winner();
+        } else if (total > Random) {
+            loser();
+        }
+    });
+
+    $("#greengem").on("click", function() {
+        total = total + generatedNumbers[3];
+        console.log("randomNumber");
+        
+        if (total == Random) {
+            winner();
+        } else if (total > Random) {
+            loser();
+        }
+    });
 });
+
+
