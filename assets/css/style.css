@@ -1,0 +1,34 @@
+body {
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background: rgb(169, 235, 240);    
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70px;
+    
+}
+
+.panel .panel-heading {
+    background: rgb(208, 236, 238);
+    margin-top: 5px;    
+    text-align: center;
+    font-size: xx-large;    
+}
+
+.panel-body {
+    background: rgb(169, 235, 240);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 5mm;    
+    padding: 7px;  
+}
+
+.number-panel {
+    background: rgb(169, 235, 240);
+    margin-top: 7px;
+    margin-left: -200px;    
+}
