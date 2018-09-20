@@ -24,7 +24,8 @@ body {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 5mm;    
-    padding: 7px;  
+    padding: 15px; 
+    margin: 0px 0px 0px 5px; 
 }
 
 .number-panel {
@@ -35,7 +36,8 @@ body {
 
 .answer-panel {
     background: rgb(169, 235, 240);
-    margin: 7px;
+    margin: 7px 7px 0px 7px;
+    
 }
 
 .result {
