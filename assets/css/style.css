@@ -30,7 +30,7 @@ body {
 .number-panel {
     background: rgb(169, 235, 240);
     margin-top: 7px;
-    margin-left: -200px;    
+    margin-left: 0;    
 }
 
 .answer-panel {
@@ -45,5 +45,5 @@ body {
 
 img {
     float: left;
-    margin: 5px;   
+    margin: 7px;   
 }

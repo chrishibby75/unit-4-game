@@ -71,7 +71,7 @@ $(document).ready(function () {
     $("#bluegem").on("click", function () {
         total = total + generatedNumbers[1];
         console.log("New total= " + total);
-        $("combined").text(total);
+        $("#combined").text(total);
 
         if (total == Random) {
             winner();
