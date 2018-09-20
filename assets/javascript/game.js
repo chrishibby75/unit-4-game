@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     function fourRandomNumbers() {
         for (i = 0; i < 4; i++) {
-            var num = Math.floor(Math.random() * 12) + 1;
+            var num = Math.floor(Math.random() * 11) + 1;
             generatedNumbers.push(num);
         }
         console.log(generatedNumbers);
@@ -56,7 +56,8 @@ $(document).ready(function () {
     // sets up click for jewels
     $("#redgem").on("click", function () {
         total = total + generatedNumbers[0];
-        console.log("randomNumber")
+        console.log("New total= " + total);
+        $("#combined").text(total);
 
 
         // sets win/lose condition
@@ -69,7 +70,8 @@ $(document).ready(function () {
 
     $("#bluegem").on("click", function () {
         total = total + generatedNumbers[1];
-        console.log("randomNumber");
+        console.log("New total= " + total);
+        $("combined").text(total);
 
         if (total == Random) {
             winner();
@@ -81,7 +83,8 @@ $(document).ready(function () {
 
     $("#yellowgem").on("click", function() {
         total = total + generatedNumbers[2];
-        console.log("randomNumber");
+        console.log("New total= " + total);
+        $("#combined").text(total);
 
         if (total == Random) {
             winner();
@@ -92,7 +95,8 @@ $(document).ready(function () {
 
     $("#greengem").on("click", function() {
         total = total + generatedNumbers[3];
-        console.log("randomNumber");
+        console.log("New total= " + total);
+        $("#combined").text(total);
         
         if (total == Random) {
             winner();
