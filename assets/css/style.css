@@ -32,3 +32,19 @@ body {
     margin-top: 7px;
     margin-left: -200px;    
 }
+
+.answer-panel {
+    background: rgb(169, 235, 240);
+    margin: 7px;
+}
+
+.result {
+    background: rgb(169, 235, 240);
+    margin-top: 7px;
+}
+
+img {
+    float: left;
+    margin: 2px;
+    background: rgb(169, 235, 240);
+}
